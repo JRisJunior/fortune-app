@@ -11,4 +11,7 @@ class MyExamplesController < ApplicationController
     render json: {message: "Here are your winning lotto numbers!
       #{lotto_numbers}"}
   end
+
+  def bottles
+    
 end

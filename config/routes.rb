@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get "/fortunes", controller: "my_examples", action: "roll"
 
   get "/lotto", controller: "my_examples", action: "shuffle"
+
+  get "/beer_bottles", controller: "my_examples", action: "bottles"
 end
