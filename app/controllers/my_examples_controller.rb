@@ -13,5 +13,6 @@ class MyExamplesController < ApplicationController
   end
 
   def bottles
-    
+  end
+
 end
