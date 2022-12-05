@@ -7,6 +7,8 @@ class MyExamplesController < ApplicationController
   end
 
   def shuffle
-    render json: {message: "hello"}
+    lotto_numbers = Array.new(6) {rand(1..60)}
+    render json: {message: "Here are your winning lotto numbers!
+      #{lotto_numbers}"}
   end
 end
